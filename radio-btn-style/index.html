@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .radio {
+        position: absolute;
+      }
+      .radio-label::before {
+        content: '';
+        width: 1.5em;
+        height: 1.5em;
+        border: 1px solid #000;
+        display: inline-block;
+        border-radius: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <label><input type="radio" name="" id="" />普通のラジオボタン</label>
+    <label class="radio-label"
+      ><input class="radio" type="radio" name="radio" id="" />スタイリングしたラジオボタン</label
+    >
+    <label class="radio-label"
+      ><input class="radio" type="radio" name="radio" id="" />スタイリングしたラジオボタン</label
+    >
+    <label class="radio-label"
+      ><input class="radio" type="radio" name="radio" id="" />スタイリングしたラジオボタン</label
+    >
+  </body>
+</html>
